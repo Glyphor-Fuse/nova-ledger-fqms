@@ -69,20 +69,7 @@ export default function Index() {
               {/* Main Image */}
               <div className="relative aspect-video bg-zinc-900">
                 <img 
-                  src="<div className="relative">
-  <img 
-    src="https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
-    alt="Modern workspace with screens displaying cryptocurrency market data and trends."
-    width="3000"
-    height="2001"
-    className="w-full h-full object-cover"
-  />
-  <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent p-2">
-    <a href="https://www.pexels.com/photo/dynamic-workspace-for-cryptocurrency-analysis-32299899/" target="_blank" rel="noopener noreferrer" className="text-xs text-slate-400 hover:text-slate-300 transition-colors">
-      Photo by Jakub Zerdzicki on Pexels
-    </a>
-  </div>
-</div>" 
+                  src="https://images.pexels.com/photos/32299899/pexels-photo-32299899.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" 
                   alt="Trading Interface"
                   className="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-700"
                 />
