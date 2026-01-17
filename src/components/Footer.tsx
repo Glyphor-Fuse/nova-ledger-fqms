@@ -1,5 +1,3 @@
-import { motion } from 'framer-motion';
-
 export const Footer = () => {
   return (
     <footer className="bg-zinc-950 border-t border-zinc-900 pt-24 pb-12 px-6">

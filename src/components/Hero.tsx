@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, TrendingUp } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const TickerItem = ({ symbol, price, change }: { symbol: string, price: string, change: string }) => (
   <div className="flex items-center gap-3 px-6 py-2 border-r border-white/5">
