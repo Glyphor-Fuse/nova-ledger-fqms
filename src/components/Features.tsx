@@ -1,7 +1,8 @@
+import { ElementType } from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Zap, Globe, Layers } from 'lucide-react';
 
-const FeatureCard = ({ icon: Icon, title, desc, delay }: { icon: any, title: string, desc: string, delay: number }) => (
+const FeatureCard = ({ icon: Icon, title, desc, delay }: { icon: ElementType, title: string, desc: string, delay: number }) => (
   <motion.div 
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
