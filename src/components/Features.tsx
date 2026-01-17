@@ -1,4 +1,4 @@
-import { ElementType } from 'react';
+import type { ElementType } from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Zap, Globe, Layers } from 'lucide-react';
 
